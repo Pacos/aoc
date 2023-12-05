@@ -2,11 +2,10 @@
 name = "aoc"
 version = "0.1.0"
 description = ""
-authors = ["Pascal HALTER <phalter.externe@bedrockstreaming.com>"]
-readme = "README.md"
+authors = ["Pascal HALTER"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.10"
 
 
 [build-system]
