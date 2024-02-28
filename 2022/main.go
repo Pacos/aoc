@@ -21,6 +21,10 @@ func main() {
 		lines := readLines(*path, false)
 		fmt.Printf("part1 : %d\n", computeDay2Part1(lines))
 		fmt.Printf("part2 : %d\n", computeDay2Part2(lines))
+	case "day3":
+		lines := readLines(*path, false)
+		fmt.Printf("part1 : %d\n", computeDay3Part1(lines))
+		fmt.Printf("part2 : %d\n", computeDay3Part2(lines))
 	default:
 		fmt.Println("Error unknown day:", day)
 		return
