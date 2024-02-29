@@ -36,14 +36,13 @@ func findCommonItem3Rucksacks(rucksacks []string) rune {
 
 func getItemPriority(item rune) int {
 	ascii := int(item)
-	if (ascii >= 97 && ascii <= 123) {
+	if ascii >= 97 && ascii <= 123 {
 		return ascii - 96
-	} else if (ascii >= 65 && ascii <= 91) {
-		return ascii  - 38
+	} else if ascii >= 65 && ascii <= 91 {
+		return ascii - 38
 	}
 	return 0
 }
-
 
 func computeDay3Part1(lines []string) int {
 	var totalPriorities int
@@ -57,8 +56,8 @@ func computeDay3Part1(lines []string) int {
 func computeDay3Part2(lines []string) int {
 	var totalPriorities int
 	var currentGroup []string
-	for i := 0; i<len(lines); i++ {
-		switch i%3 {
+	for i := 0; i < len(lines); i++ {
+		switch i % 3 {
 		case 0:
 			currentGroup = []string{lines[i]}
 		case 1:
