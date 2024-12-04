@@ -8,6 +8,8 @@ package-mode = false
 [tool.poetry.dependencies]
 python = "^3.12"
 loguru = "^0.7.2"
+rich = "^13.9.4"
+pyfiglet = "^1.0.2"
 
 
 [tool.poetry.group.dev.dependencies]
