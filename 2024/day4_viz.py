@@ -15,7 +15,6 @@ class Direction:
         return f"Dir @ h: {self.h_offset} - v: {self.v_offset}"
 
 
-@dataclass
 class Char:
     def __init__(self, text: str, line: int, col: int):
         self.text: str = text
